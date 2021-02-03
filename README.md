@@ -1,4 +1,6 @@
-# Spotlight UI
+# Site Scanning Query Builder
+
+[Note: For the past commit history of this project, see [here](https://github.com/18F/Spotlight-ui/tree/spotlight-3.0)]
 
 ## Getting Started
 
