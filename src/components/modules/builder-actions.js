@@ -89,10 +89,10 @@ export const BuilderActions = (props) => {
                 <h2>Choose a template</h2>
                 <a href={LINKS.GOOGLE_SHEETS_LINK} target="_blank" className='usa-link'>
                     Pull data into Google Sheets
-                <!--</a>
+                /*</a>
                 <a href={LINKS.EXCEL_LINK} target="_blank" className='usa-link margin-left-2'>
                     Pull data into Microsoft Excel
-                </a>-->
+                </a>*/
             </div>
             <p className='margin-top-4'>
                Share your query builder settings by copying the page's url
