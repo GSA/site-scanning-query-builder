@@ -208,8 +208,8 @@ const FIELD_OPTIONS = {
         query_type: 'boolean',
         input: 'select',
         input_options: [
-            { label: 'True', value: 'True' },
-            { label: 'False', value: 'False' },
+            { label: 'True', value: 'true' },
+            { label: 'False', value: 'false' },
         ],
     },
     dap_parameters_final_url: {
