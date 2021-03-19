@@ -7,12 +7,13 @@ const Instructions = (props) => {
             <div className="usa-alert usa-alert--warning usa-alert--slim" >
               <div className="usa-alert__body">
                 <p className="usa-alert__text">
-                    <strong>This site is in Beta</strong>. Help us improve it by emailing site-scanning@gsa.gov
+                    <strong>This site is in Alpha</strong>. Help us improve it by emailing site-scanning@gsa.gov with feedback.
                 </p>
               </div>
             </div>
             <h1>Site Scanning Query Builder</h1>
-            <h2>How it Works</h2>
+            The Site Scanning program automates a wide range of scans of public federal websites and generates data about website health and best practices. Learn more at the <a href="https://digital.gov/site-scanning/">program website</a> and the <a href="https://open.gsa.gov/api/site-scanning-api/">Site Scanning API documentation</a>.  
+            <h2>How This Page Works</h2>
             <ol >
                 <li>
                     Set the filters you want
