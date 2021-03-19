@@ -21,7 +21,7 @@ const Instructions = (props) => {
                     Copy the generated URL
                 </li>
                 <li>
-                    Use this URL in our <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets</a> or <a href={LINKS.EXCEL_LINK} target='_blank' className='usa-link'>Microsoft Excel</a> template to pull the data into a spreadsheet!
+                    Use this URL in our <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets</a> <!-- or <a href={LINKS.EXCEL_LINK} target='_blank' className='usa-link'>Microsoft Excel</a>--> template to pull the data into a spreadsheet!
                 </li>
             </ol>
         </Fragment>
