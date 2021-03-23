@@ -24,6 +24,9 @@ const Instructions = (props) => {
                 <li>
                     Use this URL in our <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets</a> template to pull the data into a spreadsheet!
                 </li>
+                <li>
+                    [Note: You'll want to <a href="https://open.gsa.gov/api/site-scanning-api/#getting-started">get your own API key</a> and replace `DEMO_KEY` with your key string.]
+                </li>
             </ol>
         </Fragment>
     );
