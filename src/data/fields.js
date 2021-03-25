@@ -5,7 +5,7 @@ const FIELD_OPTIONS = {
     target_url: {
         live: true,
         attribute: 'target_url',
-        title: 'Target Url',
+        title: 'Target URL',
         order: 0,
         category: 'Website',
         query_type: 'equals',
@@ -15,7 +15,7 @@ const FIELD_OPTIONS = {
     target_url_domain: {
         live: true,
         attribute: 'target_url_domain',
-        title: 'Target Url Domain',
+        title: 'Target URL Domain',
         order: 1,
         category: 'Website',
         query_type: 'equals',
@@ -32,14 +32,14 @@ const FIELD_OPTIONS = {
     },
     final_url_MIMETYPE: {
         attribute: 'final_url_MIMETYPE',
-        title: 'Final Url MIMEType',
+        title: 'Final URL MIMEType',
         order: 3,
         category: 'Website',
     },
     final_url_live: {
         live: true,
         attribute: 'final_url_live',
-        title: 'Final Url is Live',
+        title: 'Final URL is Live',
         order: 4,
         category: 'Website',
         query_type: 'boolean',
@@ -116,11 +116,11 @@ const FIELD_OPTIONS = {
         query_type: 'equals',
         input: 'select',
         input_options: [
-            { label: 'Success', value: 'Success' },
-            { label: 'Timeout', value: 'Timeout' },
-            { label: 'Completed', value: 'Completed' },
-            { label: 'DNS resolution error', value: 'DNS resolution error' },
-            { label: 'General scanner error', value: 'General scanner error' },
+            { label: 'Completed', value: 'completed' },
+            { label: 'Timeout', value: 'timeout' },
+            { label: 'DNS resolution error', value: 'dns_resolution_error' },
+            { label: 'Invalid SSL Certificate', value: 'invalid_ssl_cert' },
+            { label: 'Unknown error', value: 'unknown_error' },
         ],
     },
     scan_date: {
@@ -208,8 +208,8 @@ const FIELD_OPTIONS = {
         query_type: 'boolean',
         input: 'select',
         input_options: [
-            { label: 'True', value: 'True' },
-            { label: 'False', value: 'False' },
+            { label: 'True', value: 'true' },
+            { label: 'False', value: 'false' },
         ],
     },
     dap_parameters_final_url: {
