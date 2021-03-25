@@ -14,7 +14,7 @@ const FIELD_OPTIONS = {
     target_url_domain: {
         live: true,
         attribute: 'target_url_domain',
-        title: 'Target URL Domain',
+        title: 'Target URL - Base Domain',
         order: 1,
         category: 'Website',
         query_type: 'equals',
@@ -38,7 +38,7 @@ const FIELD_OPTIONS = {
     final_url_live: {
         live: true,
         attribute: 'final_url_live',
-        title: 'Final URL is Live',
+        title: 'Final URL - Live',
         order: 4,
         category: 'Website',
         query_type: 'boolean',
@@ -203,7 +203,7 @@ const FIELD_OPTIONS = {
         attribute: 'dap_detected_final_url',
         title: 'Final URL - DAP Detected',
         category: 'Website',
-        order: 0,
+        order: 10,
         query_type: 'boolean',
         input: 'select',
         input_options: [
