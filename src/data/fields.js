@@ -116,13 +116,11 @@ const FIELD_OPTIONS = {
         query_type: 'equals',
         input: 'select',
         input_options: [
-            { label: 'Success', value: 'Success' },
-            { label: 'Timeout', value: 'timeout' },
             { label: 'Completed', value: 'completed' },
+            { label: 'Timeout', value: 'timeout' },
             { label: 'DNS resolution error', value: 'dns_resolution_error' },
             { label: 'Invalid SSL Certificate', value: 'invalid_ssl_cert' },
             { label: 'Unknown error', value: 'unknown_error' },
-            { label: 'General scanner error', value: 'General scanner error' },
         ],
     },
     scan_date: {
