@@ -5,7 +5,7 @@ const FIELD_OPTIONS = {
     target_url: {
         live: true,
         attribute: 'target_url',
-        title: 'Target Url',
+        title: 'Target URL',
         order: 0,
         category: 'Website',
         query_type: 'equals',
@@ -15,7 +15,7 @@ const FIELD_OPTIONS = {
     target_url_domain: {
         live: true,
         attribute: 'target_url_domain',
-        title: 'Target Url Domain',
+        title: 'Target URL Domain',
         order: 1,
         category: 'Website',
         query_type: 'equals',
@@ -32,14 +32,14 @@ const FIELD_OPTIONS = {
     },
     final_url_MIMETYPE: {
         attribute: 'final_url_MIMETYPE',
-        title: 'Final Url MIMEType',
+        title: 'Final URL MIMEType',
         order: 3,
         category: 'Website',
     },
     final_url_live: {
         live: true,
         attribute: 'final_url_live',
-        title: 'Final Url is Live',
+        title: 'Final URL is Live',
         order: 4,
         category: 'Website',
         query_type: 'boolean',
