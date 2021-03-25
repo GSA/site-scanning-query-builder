@@ -3,7 +3,6 @@ import * as OPTIONS from './agency_bureau_options';
 const FIELD_OPTIONS = {
     // Website
     target_url: {
-        live: true,
         attribute: 'target_url',
         title: 'Target URL',
         order: 0,
