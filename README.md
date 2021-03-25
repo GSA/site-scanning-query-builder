@@ -1,6 +1,9 @@
 # Site Scanning Query Builder
 
-[Note: For the past commit history of this project, see [here](https://github.com/18F/Spotlight-ui/tree/spotlight-3.0)]
+_[[Initial commit history](https://github.com/18F/Spotlight-ui/tree/spotlight-3.0)]_ 
+
+## Cheat Sheet
+* Add/Remove filters on the left - add or remove `live: true,`
 
 ## Getting Started
 
