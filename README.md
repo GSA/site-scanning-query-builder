@@ -1,6 +1,6 @@
 # Site Scanning Query Builder
 
-_[[Initial commit history](https://github.com/18F/Spotlight-ui/tree/spotlight-3.0)]_ 
+A tool to help users access data from the [Site Scanning](https://digital.gov/site-scanning) program.  
 
 ## Cheat Sheet
 * Add/Remove filters on the left - add or remove `live: true,`
@@ -117,3 +117,8 @@ Reducers are tested using Jest.
 ### Building and deploying
 
 Spotlight UI is configured to deploy to Federalist. Builds are validated by CircleCI.
+
+### Project history
+
+_[[Initial commit history](https://github.com/18F/Spotlight-ui/tree/spotlight-3.0)]_ 
+
