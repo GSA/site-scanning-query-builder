@@ -85,11 +85,11 @@ export const BuilderActions = (props) => {
                     Copied!
                 </span>
             }
-            <p>
-                3) Click here to open the <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets template</a></br>
-                4) Paste the API URL into the appropriate box in the Google Sheet</br>
-                5) From there, follow the instructions in the Google Sheet</br>
-            </p>
+            <ol start="3">
+                <li>Click here to open the <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets template</a></li>
+                <li>Paste the API URL into the appropriate box in the Google Sheet</li>
+                <li>From there, follow the instructions in the Google Sheet</li>
+            </ol>
         </div>
     );
 };
