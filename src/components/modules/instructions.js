@@ -15,8 +15,8 @@ const Instructions = (props) => {
             This tool walks through filtering and pulling into a spreadsheet website data from the <a href="https://digital.gov/site-scanning/">Site Scanning program</a>.
             <p>To get started:</p>
             <p >
-                    <p>On the left, set the filters you want</p>
-                    <p>Copy the API URL generated below</p>
+                    1. On the left, set the filters you want </br>
+                    2. Copy the API URL generated below
             </p>
         </Fragment>
     );
