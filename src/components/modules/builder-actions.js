@@ -85,14 +85,10 @@ export const BuilderActions = (props) => {
                     Copied!
                 </span>
             }
-            <div>
-                <h2>Choose a template</h2>
-                <a href={LINKS.GOOGLE_SHEETS_LINK} target="_blank" className='usa-link'>
-                    Pull data into Google Sheets
-                </a>
-            </div>
-            <p className='margin-top-4'>
-               Share your query builder settings by copying the page's url
+            <p>
+                3. Click here to open the <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets template</a></br>
+                4. Paste the API URL into the appropriate box in the Google Sheet</br>
+                5. From there, follow the instructions in the Google Sheet</br>
             </p>
         </div>
     );
