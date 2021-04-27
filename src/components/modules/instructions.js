@@ -25,10 +25,10 @@ const Instructions = (props) => {
                     Click here to open the <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets template</a>
                 </li>
                 <li>
-                    Follow the instructions in the Google Sheet and Paste the API URL into the appropriate box in the spreadsheet
+                    Paste the API URL into the appropriate box in the Google Sheet
                 </li>
                 <li>
-                    Follow the instructions in the Google Sheet from there
+                    From there, follow the instructions in the Google Sheet
                 </li>
             </ol>
         </Fragment>
