@@ -17,6 +17,9 @@ const Instructions = (props) => {
             <ol>
                     <li>On the left, set the filters you want</li>
                     <li>Copy the API URL generated below</li>
+                    <li>Click here to open the <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets template</a>. You'll be prompted to make a copy.</li>
+                    <li>Paste the API URL into the appropriate box in the Google Sheet</li>
+                    <li>From there, follow the instructions in the Google Sheet</li>
             </ol>
         </Fragment>
     );
