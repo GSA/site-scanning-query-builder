@@ -12,21 +12,14 @@ const Instructions = (props) => {
               </div>
             </div>
             <h1>Site Scanning Query Builder</h1>
-            The Site Scanning program automates a wide range of scans of public federal websites and generates data about website health and best practices. Learn more at the <a href="https://digital.gov/site-scanning/">program website</a> and the <a href="https://open.gsa.gov/api/site-scanning-api/">Site Scanning API documentation</a>.  
-            <h2>How This Page Works</h2>
-            <ol >
-                <li>
-                    Set the filters you want
-                </li>
-                <li>
-                    Copy the generated URL
-                </li>
-                <li>
-                    Use this URL in our <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets</a> template to pull the data into a spreadsheet!
-                </li>
-                <li>
-                    Note: You'll want to <a href="https://open.gsa.gov/api/site-scanning-api/#getting-started" target='_blank'>get your own API key</a> and replace `DEMO_KEY` with your key string.
-                </li>
+            This tool walks through filtering and pulling into a spreadsheet website data from the <a href="https://digital.gov/site-scanning/">Site Scanning program</a>.
+            <p>To get started:</p>
+            <ol>
+                    <li>On the left, set the filters you want.</li>
+                    <li>Copy the API URL generated below.</li>
+                    <li>Click here to open the <a href={LINKS.GOOGLE_SHEETS_LINK} target='_blank' className='usa-link'>Google Sheets template</a>. You'll be prompted to make a copy.</li>
+                    <li>Paste the API URL into the appropriate box in the Google Sheet.</li>
+                    <li>From there, follow the instructions in the Google Sheet.</li>
             </ol>
         </Fragment>
     );
